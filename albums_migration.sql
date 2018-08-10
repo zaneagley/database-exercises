@@ -5,6 +5,6 @@ id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 artist VARCHAR(50),
 name VARCHAR (50),
 release_date DATE,
-sales FLOAT(11,2),
+sales FLOAT(13,2),
 genre VARCHAR(10)
 );
