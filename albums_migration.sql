@@ -6,5 +6,6 @@ artist VARCHAR(50),
 name VARCHAR (75),
 sales FLOAT(13,2),
 release_date INT(4),
-genre VARCHAR(40)
+genre VARCHAR(40),
+UNIQUE (name, artist)
 );
